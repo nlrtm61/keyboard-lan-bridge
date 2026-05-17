@@ -1,0 +1,39 @@
+{
+  "receiverHost": "RECEIVER_IP_HERE",
+  "receiverPort": 8765,
+  "sharedToken": "replace-with-a-long-random-token",
+  "promptForPermissionsOnLaunch": true,
+  "enabledOnLaunch": false,
+  "toggleHotkey": "escape",
+  "toggleHotkeyModifiers": ["shift"],
+  "quitHotkey": "f19",
+  "quitHotkeyModifiers": [],
+  "logNetworkResponses": false,
+  "logVerboseEvents": false,
+  "hotkeys": [
+    {
+      "triggerKey": "1",
+      "triggerModifiers": ["control", "option"],
+      "sendKey": "space",
+      "sendKeyCode": null,
+      "action": "tap",
+      "modifiers": []
+    },
+    {
+      "triggerKey": "2",
+      "triggerModifiers": ["control", "option"],
+      "sendKey": "left-arrow",
+      "sendKeyCode": null,
+      "action": "tap",
+      "modifiers": []
+    },
+    {
+      "triggerKey": "3",
+      "triggerModifiers": ["control", "option"],
+      "sendKey": "right-arrow",
+      "sendKeyCode": null,
+      "action": "tap",
+      "modifiers": []
+    }
+  ]
+}

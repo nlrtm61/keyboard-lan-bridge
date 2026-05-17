@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.keyboardlanbridge.receiver</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>__HOME__/Library/Application Support/KeyboardLANBridge/KeyboardLANBridgeReceiver.app/Contents/MacOS/KeyboardLANBridgeReceiver</string>
+        <string>run</string>
+        <string>--config</string>
+        <string>__HOME__/Library/Application Support/KeyboardLANBridge/receiver.local.json</string>
+    </array>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>KeepAlive</key>
+    <true/>
+    <key>StandardOutPath</key>
+    <string>__HOME__/Library/Logs/keyboard-lan-bridge-receiver.log</string>
+    <key>StandardErrorPath</key>
+    <string>__HOME__/Library/Logs/keyboard-lan-bridge-receiver.log</string>
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>KLB_LOG_MAX_BYTES</key>
+        <string>1048576</string>
+        <key>KLB_LOG_MAX_FILES</key>
+        <string>5</string>
+        <key>KLB_LOG_PATH</key>
+        <string>__HOME__/Library/Logs/keyboard-lan-bridge-receiver.log</string>
+    </dict>
+</dict>
+</plist>

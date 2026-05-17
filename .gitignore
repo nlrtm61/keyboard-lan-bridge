@@ -1,0 +1,9 @@
+.DS_Store
+.build/
+.swiftpm/
+.env
+*.log
+
+# Real local configs must not be committed
+configs/*.json
+!configs/*.sample.json
